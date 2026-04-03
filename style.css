@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+.banner {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.carros {
+    padding: 40px;
+    text-align: center;
+}
+
+.carros h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #111;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
